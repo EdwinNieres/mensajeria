@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.text-xs {
+  font-size: 0.6rem;
+  color: #bec1bb;
+}
+.text-sm {
+  font-size: 0.8rem;
+}
+.text-md {
+  font-size: 1rem;
+}
+.text-lg {
+  font-size: 2.8rem;
+}
+.text-regular {
+  font-weight: 400;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+/* ESTILOS PARA EL BOTON NUEVO CHAT */
+
+.bt-primario {
+  background-color: #a491d2;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 3rem;
+  margin: 40px;
+}
+
+.bt-primario:hover {
+  background-color: #cdc3e6;
+}
+
+.bt-primario:focus {
+  background-color: #bec1bb;
+}
+
+/* CONTENEDOR */
+
+.contenedor {
+  display: flex;
+}
+
+/* SECCION DE CONTACTOS/USUARIOS/NAV-BAR */
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #bec1bb;
+  flex: 1 0 17rem;
+  min-height: 100vh;
+}
+
+.carita {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #e8ebe4;
+}
+
+.carita:hover {
+  cursor: pointer;
+  background-color: #bec1bb;
+}
+
+.carita-maria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #e8ebe4;
+}
+
+.carita-usuario {
+  display: flex;
+  align-items: center;
+}
+
+.carita-datos {
+  margin-left: 1rem;
+}
+
+.carita-chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8ebe4;
+}
+
+.carita-img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.carita-img:hover {
+  cursor: pointer;
+}
+
+.carita-usuario-pequeña {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+.carita-usuario-pequeña:hover {
+  cursor: pointer;
+}
+
+.carita-iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carita-iconos a {
+  color: #828485;
+}
+
+.carita-iconos a:hover {
+  color: #616060;
+}
+
+/* SECCION PRINCIPAL LOGO/PARRAFO */
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.principal img {
+  width: 16rem;
+  margin-bottom: 1.5rem;
+}
+
+.descripcion {
+  width: 35rem;
+  text-align: center;
+  padding: 0 0.5rem;
